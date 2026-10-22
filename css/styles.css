@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #172554;
+    color: white;
+    padding: 24px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+main {
+    padding: 24px;
+}
+
+h2 {
+    color: #1d4ed8;
+    font-size: 26px;
+}
+
+.event-card,
+.club-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px dashed #dddddd;
+}
+
+.event-card h3,
+.club-card h3 {
+    color: #172554;
+}
+
+footer {
+    background-color: #172554;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
