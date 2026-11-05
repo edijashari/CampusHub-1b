@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusHub</title>
+</head>
+<body>
+     <header>
+        <h1>CampusHub</h1>
+        <p>Disconer events, clubs and activities on campus.</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="eventet.html">Eventet</a>
+            <a href="clubs.html">Clubs</a>
+            <a href="#">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact us</h2>
+            <p>
+                Have any questions?
+                <br>
+                Send us a message
+            </p>
+            <form>
+                <div>
+                    <label for="name">Full name:</label>
+                    <input type="text" name="name" id="name" required minlength="3">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <select name="subject" id="subject">
+                        <option value="">Select a subject</option>
+                        <option value="events">Events</option>
+                        <option value="clubs">Clubs</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div>
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" required minlength="10"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit: </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
